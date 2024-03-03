@@ -28,7 +28,7 @@ class PalindromeNumber
     {
         int n;
         Scanner sc=new Scanner(System.in);
-        System.out.print("Enter number to cheak palimdrome or not:");
+        System.out.print("Enter number to check palindrome or not:");
         n=sc.nextInt();
         Number obj = new Number();
         obj.fn(n);
